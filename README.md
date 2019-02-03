@@ -1,6 +1,6 @@
 # axecore-message
 
-[![Build Status](https://img.shields.io/travis/axerunners/axecore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/axerunners/axecore-message)
+[![Build Status](https://img.shields.io/travis/AXErunners/axecore-message.svg?branch=master&style=flat-square)](https://travis-ci.com/AXErunners/axecore-message)
 [![NPM Package](https://img.shields.io/npm/v/@axerunners/axecore-message.svg?style=flat-square)](https://www.npmjs.org/package/@axerunners/axecore-message)
 
 > Message Verification and Signing for axecore-lib
