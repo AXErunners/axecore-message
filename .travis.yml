@@ -1,0 +1,24 @@
+sudo: false
+dist: trusty
+language: node_js
+
+# Support Active LTS versions of Node.js
+node_js:
+  - '8'
+  - '10'
+
+install:
+  - npm install
+
+script:
+  - npm run check-package
+  - npm run lint
+  - npm run test
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: bash scripts/travis-deploy.sh
+    on:
+      repo: axerunners/axecore-message
+      tags: true
